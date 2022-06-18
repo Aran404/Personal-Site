@@ -1,69 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 
-*{
+* {
     font-family: 'PT Mono', monospace;
     margin: 0;
 }
-html{
+
+html {
     margin: 0;
 }
-body{
+
+body {
     background-color: #171941;
     background-repeat: no-repeat;
     background-size: 150vw 150vh;
     overflow-x: hidden;
     overflow-y: visible;
 }
-header h1{
-    text-align:center;
+
+header h1 {
+    text-align: center;
     padding: 30px;
     color: #a80000;
     font-weight: bold;
 }
 
-.row{
+h1 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+.row {
     width: 30rem;
     margin: 0 auto;
 }
+
 a {
     text-decoration: none;
     color: #e44cc4;
     z-index: 1;
-  }
-a:hover{
+}
+
+a:hover {
     transition: ease-in .2s;
     transform: scale(1.01);
     cursor: pointer;
     color: #e44cc4;
 }
-a:hover i{
+
+a:hover i {
     opacity: 0.7;
     transition: ease-in .2s;
 }
-a:hover img{
+
+a:hover img {
     opacity: 0.7;
     transition: ease-in .2s;
 }
+
 i {
     font-size: 75px;
+    float: left;
+    margin-top: -27px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
     float: left;
     margin-top: -15px;
     margin-left: 20px;
     margin-right: 20px;
 }
-img{
-    float: left;
-    margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#arrow{
+
+#arrow {
     float: right;
     top: 0;
 }
 
-.github-card{
+.github-card {
     background: linear-gradient(45deg, #5457f5 0%, #8556e3 100%);
     border-radius: 5px;
     padding: 10px;
@@ -71,14 +89,16 @@ img{
     height: 7.5rem;
     margin: 0 auto;
 }
-.github-card h1{
+
+.github-card h1 {
     margin: 15px 0px -5px 20px;
 }
-.github-card h4{
+
+.github-card h4 {
     margin-top: 5px;
 }
 
-.discord-card{
+.discord-card {
     background: linear-gradient(45deg, #5457f5 0%, #8556e3 100%);
     border-radius: 5px;
     padding: 10px;
@@ -86,14 +106,16 @@ img{
     height: 7.5rem;
     margin: 0 auto;
 }
-.discord-card h1{
+
+.discord-card h1 {
     margin: 15px 0px -5px 20px;
 }
-.discord-card h4{
+
+.discord-card h4 {
     margin-top: 5px;
 }
 
-.discord-profile-card{
+.discord-profile-card {
     background: linear-gradient(45deg, #5457f5 0%, #8556e3 100%);
     border-radius: 5px;
     padding: 10px;
@@ -101,14 +123,16 @@ img{
     height: 7.5rem;
     margin: 0 auto;
 }
-.discord-profile-card h1{
+
+.discord-profile-card h1 {
     margin: 15px 0px -5px 20px;
 }
-.discord-profile-card h4{
+
+.discord-profile-card h4 {
     margin-top: 5px;
 }
 
-.store-card{
+.store-card {
     background: linear-gradient(45deg, #5457f5 0%, #8556e3 100%);
     border-radius: 5px;
     padding: 10px;
@@ -117,32 +141,46 @@ img{
     margin: 0 auto;
     z-index: -1;
 }
-.store-card h1{
+
+.store-card h1 {
     margin: 15px 0px -5px 20px;
 }
-.store-card h4{
+
+.store-card h4 {
     margin-top: 5px;
 }
 
-[class*="card"]:hover #arrow{
+[class*="card"]:hover #arrow {
     opacity: 0.5;
     transition: ease-in .2s;
 }
-[class*="card"]:hover{
+
+[class*="card"]:hover {
     transition: ease-in .2s;
     transform: scale(1.01);
     cursor: pointer;
 }
 
-.discord-widget{
+.discord-widget {
     margin: 0 auto;
     width: 32rem;
 }
-.discord-widget img{
+
+.discord-widget img {
     padding: 10px;
     margin-right: auto;
     margin-left: .75rem;
     z-index: 1;
+}
+
+.arrov {
+    position: relative;
+    left: 15px;
+}
+
+.smallerimg {
+    float: left;
+    top: 0;
 }
 
 /*
